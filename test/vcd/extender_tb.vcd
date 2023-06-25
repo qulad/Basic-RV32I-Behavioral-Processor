@@ -1,0 +1,89 @@
+$date
+	Mon Jun 19 13:00:33 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module extender_tb $end
+$var wire 32 ! extended_o [31:0] $end
+$var reg 13 " b_type_i [12:0] $end
+$var reg 32 # expected_output [31:0] $end
+$var reg 3 $ extend_i [2:0] $end
+$var reg 12 % i_type_i [11:0] $end
+$var reg 9 & j_type_i [8:0] $end
+$var reg 12 ' s_type_i [11:0] $end
+$var reg 20 ( u_type_i [19:0] $end
+$scope module dut $end
+$var wire 13 ) b_type_i [12:0] $end
+$var wire 3 * extend_i [2:0] $end
+$var wire 12 + i_type_i [11:0] $end
+$var wire 9 , j_type_i [8:0] $end
+$var wire 12 - s_type_i [11:0] $end
+$var wire 20 . u_type_i [19:0] $end
+$var reg 32 / extended_o [31:0] $end
+$var reg 32 0 temp [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b10010010011001001001000000000000 0
+b10010010011001001001000000000000 /
+b10010010011001001001 .
+bx -
+bx ,
+bx +
+b0 *
+bx )
+b10010010011001001001 (
+bx '
+bx &
+bx %
+b0 $
+b10010010011001001001000000000000 #
+bx "
+b10010010011001001001000000000000 !
+$end
+#11000
+b11001001000000000000 !
+b11001001000000000000 /
+b11001001000000000000 0
+b11001001000000000000 #
+b11001001 &
+b11001001 ,
+b1 $
+b1 *
+#22000
+b1110010011001 !
+b1110010011001 /
+b1110010011001 0
+b1110010011001 #
+b1110010011001 "
+b1110010011001 )
+b10 $
+b10 *
+#33000
+b110010011001 !
+b110010011001 /
+b110010011001 0
+b110010011001 #
+b110010011001 '
+b110010011001 -
+b11 $
+b11 *
+#44000
+b110010011011 !
+b110010011011 /
+b110010011011 0
+b110010011011 #
+b110010011011 %
+b110010011011 +
+b100 $
+b100 *
+#45000

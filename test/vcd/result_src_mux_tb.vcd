@@ -1,0 +1,85 @@
+$date
+	Mon Jun 19 13:40:50 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module result_src_mux_tb $end
+$var wire 32 ! result_o [31:0] $end
+$var reg 32 " alu_result_i [31:0] $end
+$var reg 32 # comp_i [31:0] $end
+$var reg 32 $ extended_i [31:0] $end
+$var reg 32 % pc_plus_4_i [31:0] $end
+$var reg 32 & read_data_i [31:0] $end
+$var reg 3 ' result_src_flag_i [2:0] $end
+$scope module dut $end
+$var wire 32 ( alu_result_i [31:0] $end
+$var wire 32 ) comp_i [31:0] $end
+$var wire 32 * extended_i [31:0] $end
+$var wire 32 + pc_plus_4_i [31:0] $end
+$var wire 32 , read_data_i [31:0] $end
+$var wire 3 - result_src_flag_i [2:0] $end
+$var reg 32 . result_o [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b0 .
+bx -
+b1101110 ,
+b101010000000000000110101 +
+b10101101100111 *
+b101111101100000100000010001 )
+b1100100 (
+bx '
+b1101110 &
+b101010000000000000110101 %
+b10101101100111 $
+b101111101100000100000010001 #
+b1100100 "
+b0 !
+$end
+#10000
+b1100100 !
+b1100100 .
+b0 '
+b0 -
+#21000
+b1101110 !
+b1101110 .
+b1 '
+b1 -
+#32000
+b10101101100111 !
+b10101101100111 .
+b10 '
+b10 -
+#43000
+b101010000000000000110101 !
+b101010000000000000110101 .
+b11 '
+b11 -
+#54000
+b101111101100000100000010001 !
+b101111101100000100000010001 .
+b100 '
+b100 -
+#65000
+b0 !
+b0 .
+b101 '
+b101 -
+#76000
+b110 '
+b110 -
+#87000
+b111 '
+b111 -
+#88000

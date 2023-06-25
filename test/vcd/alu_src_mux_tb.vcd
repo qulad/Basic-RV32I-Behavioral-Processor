@@ -1,0 +1,59 @@
+$date
+	Mon Jun 19 17:39:59 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module alu_src_mux_tb $end
+$var wire 32 ! pc_src_o [31:0] $end
+$var reg 32 " expected_output [31:0] $end
+$var reg 32 # one_i [31:0] $end
+$var reg 1 $ pc_src_i $end
+$var reg 32 % test_one_i [31:0] $end
+$var reg 1 & test_pc_src_i $end
+$var reg 32 ' test_zero_i [31:0] $end
+$var reg 32 ( zero_i [31:0] $end
+$scope module dut $end
+$var wire 1 $ alu_src_i $end
+$var wire 32 ) extended_i [31:0] $end
+$var wire 32 * rd2_i [31:0] $end
+$var reg 32 + src_b_o [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+bx +
+bx *
+bx )
+bx (
+b0 '
+0&
+b1 %
+x$
+bx #
+b0 "
+bx !
+$end
+#10000
+b0 !
+b0 +
+0$
+b1 #
+b1 )
+b0 (
+b0 *
+#11000
+b1 "
+1&
+#21000
+b1 !
+b1 +
+1$
+#22000

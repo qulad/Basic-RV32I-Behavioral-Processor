@@ -1,0 +1,43 @@
+$date
+	Mon Jun 19 10:21:39 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module pc_plus_4_tb $end
+$var wire 32 ! instruction_o [31:0] $end
+$var reg 32 " expected_output [31:0] $end
+$var reg 32 # instruction_i [31:0] $end
+$scope module dut $end
+$var wire 32 $ instruction_i [31:0] $end
+$var reg 32 % instruction_o [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b100 %
+b0 $
+b0 #
+b100 "
+b100 !
+$end
+#1000
+b1110 !
+b1110 %
+b1110 "
+b1010 #
+b1010 $
+#2000
+b11111111111111111111111111111111 !
+b11111111111111111111111111111111 %
+b11111111111111111111111111111111 "
+b11111111111111111111111111111011 #
+b11111111111111111111111111111011 $
+#3000

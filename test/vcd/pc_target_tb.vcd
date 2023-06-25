@@ -1,0 +1,51 @@
+$date
+	Mon Jun 19 10:40:36 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module pc_target_tb $end
+$var wire 32 ! instruction_o [31:0] $end
+$var reg 32 " expected_output [31:0] $end
+$var reg 32 # offset_i [31:0] $end
+$var reg 32 $ pc_i [31:0] $end
+$scope module dut $end
+$var wire 32 % offset_i [31:0] $end
+$var wire 32 & pc_i [31:0] $end
+$var reg 32 ' instruction_o [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b0 '
+b0 &
+b0 %
+b0 $
+b0 #
+b0 "
+b0 !
+$end
+#1000
+b110001 !
+b110001 '
+b110001 "
+b100001 #
+b100001 %
+b10000 $
+b10000 &
+#2000
+b1101101011 !
+b1101101011 '
+b1101101011 "
+b1101110000 #
+b1101110000 %
+b11111111111111111111111111111011 $
+b11111111111111111111111111111011 &
+#3000
